@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: kramdown
 encoding: utf-8
 exclude: ['README.md']
 baseurl: /my-personal-blog
