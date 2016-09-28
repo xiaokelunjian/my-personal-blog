@@ -1,0 +1,13 @@
+<h2>我的博客</h2>
+
+<ul>
+    {% for post in site.posts %}
+    <div class="thumbnail">
+        <div class="caption">
+            <h3><a href="{{ post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+            <p><small>{{post.date | date: '%B %d, %Y'}}</small></p>
+            {{ post.excerpt }}
+        </div>
+    </div>
+    {% endfor %}
+</ul>

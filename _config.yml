@@ -1,1 +1,5 @@
+markdown: kramdown
 encoding: utf-8
+exclude: ['README.md']
+baseurl: /my-personal-blog
+permalink: /_posts/:title
